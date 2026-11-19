@@ -1,0 +1,1 @@
+{"name":"usb-sentinel-dashboard","version":"1.0.0","private":true,"type":"module","description":"Browser UI for defensive USB and IoT telemetry.","scripts":{"check":"node --check dist/assets/app.js"},"engines":{"node":">=20"}}

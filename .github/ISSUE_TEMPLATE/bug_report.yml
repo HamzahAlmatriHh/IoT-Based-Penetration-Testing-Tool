@@ -1,0 +1,11 @@
+name: Bug report
+description: Report a reproducible defect without attaching sensitive evidence.
+body:
+  - type: textarea
+    attributes: {label: Description}
+    validations: {required: true}
+  - type: textarea
+    attributes: {label: Reproduction steps}
+    validations: {required: true}
+  - type: textarea
+    attributes: {label: Sanitized logs, description: Remove tokens, addresses, credentials, and private evidence.}
